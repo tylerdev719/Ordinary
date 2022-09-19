@@ -1,0 +1,64 @@
+// Index SCSS
+
+@import url(https://fonts.googleapis.com/css?family=Questrial:regular);
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900);
+
+$FontQuestrial: 'Questrial', sans-serif;
+$FontNunito: 'Nunito', sans-serif;
+$ColorWhite: #e5e5e5;
+$ColorBlack: #231f20;
+$ColorGray: #a9a9a9;
+$ColorBlue: #4174da;
+$ColorDarkBlue: #3131ff;
+$ColorPurple: #a55eea;
+$ColorRed: #f06e6e;
+$ColorGreen: #00bfa5;
+$ColorYellow: #f9c80e;
+
+body {
+	background-color: $ColorBlue;
+	// background: linear-gradient(to bottom, $ColorBlue, $ColorGreen);
+	color: $ColorBlack;
+	font-family: $FontQuestrial;
+	font-size: 16px;
+	margin: 4rem;
+	padding: 0.5rem;
+	scroll-behavior: smooth;
+	overflow-x: auto;
+}
+
+h2.title {
+	color: $ColorWhite;
+	font-size: 3.5rem;
+	font-family: $FontNunito;
+	// font-weight: 700;
+	letter-spacing: -0.15rem;
+	margin: 0;
+	padding: 1rem;
+	// background: transparent;
+	background: $ColorBlue;
+	border: 8px solid $ColorWhite;
+	border-radius: 1rem;
+	// border: 6px solid $ColorWhite;
+	// border-radius: 1rem;
+	// box-shadow: 12px 15px 0px 0px $ColorBlack;
+}
+
+h3.subtitle {
+	font-size: 2.75rem;
+	font-family: $FontNunito;
+	font-weight: 700;
+	margin: 0;
+	margin-top: 5rem;
+	padding: 1rem;
+	// background: $ColorRed;
+	color: $ColorWhite;
+}
+
+p.text {
+	font-family: $FontQuestrial;
+	color: $ColorGray;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 1rem;
+}
